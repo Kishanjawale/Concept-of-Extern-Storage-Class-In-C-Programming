@@ -1,0 +1,16 @@
+This application just explains the use of Extern storage class
+We can use this concept of extern storage class when we have to divide our code in two or more 
+files.
+important points:
+1. Both files should be in same folder 
+2. The sequence of  name of file  doesn't  matter  
+	while compiling the apllication
+
+Instruction for Compilation for gcc compilor:
+gcc mainfile.c extern.c -o myexe
+
+Instruction for Running the exe file  using  gcc compilor:
+myexe
+
+
+
