@@ -5,6 +5,8 @@ important points:
 1. Both files should be in same folder 
 2. The sequence of  name of file  doesn't  matter  
 	while compiling the apllication
+3. The variable or fuction which we want to access from second file (in our case it is Extern.c) 
+	must be global varibale or function
 
 Instruction for Compilation for gcc compilor:
 gcc mainfile.c extern.c -o myexe
